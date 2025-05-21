@@ -1,0 +1,8 @@
+Prompt Native 
+
+You are performing a medication chart review for clinical case provided to identify any drug related problems among indication, dosing, potential adverse drug reaction, 
+contraindications and cautions, or has a medication allergy, drug drug interactions, omission of therapy or therapeutic duplication. 
+
+Create a pharmacist recommendation note to summarize any identified drug related problem(s) in the following format:
+"situation, background, assessment, recommendation". Your plan should be clear, comprehensive and justified with specific recommendations for any changes to the medication regimen, including discontinuations, 
+dose adjustments or additions. 

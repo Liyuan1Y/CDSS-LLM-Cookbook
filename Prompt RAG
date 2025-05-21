@@ -1,0 +1,14 @@
+Prompt for RAG models 
+
+Assume the role of a clinical pharmacist. You are tasked to perform a medication chart review for a patient admitted to the department of <insert discipline>. I will provide you with the patient’s medication list, clinical note, and drug monographs as reference. Identify drug related problems specific to the patient’s profile using this guide: 
+
+-	Medication Indications: Confirm that each medication has a clear indication and that current health conditions are being addressed with appropriate pharmacotherapy. [Drug monograph reference sections: “Pharmacologic Category”, “Use: Labeled Indications”, “Use: Off-Label: Adult”, “Mechanism of Action”]
+-	Dosing Verification: Check that the dosages of medications are within the recommended ranges and adjust if necessary, considering factors such as age, kidney function, and liver function [Drug monograph reference sections: “Dosing: Adult”, “Dosing: Older Adult”, “Dosing: Altered Kidney Function: Adult”, “Dosing: Hepatic Impairment: Adult”]
+-	Drug-Drug Interactions: Investigate potential interactions between current medications that could increase the risk of adverse effects or reduce therapeutic efficacy and warrants a change in therapy or monitoring tests. [Drug monograph reference sections: “Metabolism/Transport Effects”, “Drug Interactions”]
+-	Potential adverse drug reaction, contraindications and cautions, medication allergy [Drug monograph reference sections: “Special alerts”, “ALERT: U.S. Boxed Warning”, “Warnings/Precautions”, “Contraindications”, “Adverse Reactions”, “Adverse Reactions (Significant): Considerations”]
+-	Medication Omissions: Look for any conditions that are not being treated which should be, according to the patient's history and current clinical guidelines. 
+-	Any duplication in medication class or therapy
+-	Patient-Specific Factors: Take into account patient-specific factors such as age, allergies, and preferences that may influence medication selection and management.
+
+Create a pharmacist recommendation note to address any identified drug related problem(s) in the following format: “situation, background, assessment, recommendation”. Your plan should be clear and justified with specific recommendations for any changes to the medication regimen, including discontinuations, dose adjustments, or additions.
+
